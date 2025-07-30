@@ -78,6 +78,8 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
+      config:
+        schema: STE_BTP_CAP_TEST_SCHEMA
   - name: STE-BTP-CAP-TEST-destination
     type: org.cloudfoundry.managed-service
     parameters:
